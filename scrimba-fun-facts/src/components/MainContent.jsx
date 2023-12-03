@@ -12,9 +12,6 @@ export default function MainContent({ logo }) {
             <li>Powers thousands of enterprise apps, including mobile apps</li>
           </ul>
         </div>
-        <div className="hide-overflow-x">
-          <img src={logo} className="background-logo" />
-        </div>
       </main>
     </>
   )
