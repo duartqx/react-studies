@@ -8,11 +8,20 @@ body {
 
 nav {
   z-index: 1;
+  background-color: #fff;
   position: fixed;
   width: 100vw;
   height: 70px;
   padding: 20px 36px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, .15);
+}
+
+.gray {
+  color: #bebebe;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .nav--logo {
@@ -56,4 +65,41 @@ nav {
 .banner--image {
   width: 40rem;
   max-width: 600px;
+}
+
+#cardSession {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+#cardSession--container {
+  align-self: center;
+  display: flex;
+  width: 60vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardSession--card {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.cardSession--card--image {
+  width: 12rem;
+  border-radius: 12px;
+}
+
+.cardSession--descr {
+  font-size: 0.76rem;
+  margin-top: -0.2rem;
+}
+
+.cardSession--card--stars {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1.2rem 0;
 }

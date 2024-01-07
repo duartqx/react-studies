@@ -1,0 +1,30 @@
+[
+    {
+      "stars": 5.0,
+      "votes": 6,
+      "location": "USA",
+      "description": "Life lessons from Katie Zaferes",
+      "price": 136,
+      "category": "person",
+      "image": "/src/assets/katie-zaferes.png"
+    },
+    {
+      "stars": 5.0,
+      "votes": 30,
+      "location": "USA",
+      "description": "Learn wedding photography",
+      "price": 125,
+      "category": "person",
+      "image": "/src/assets/wedding-photography.png"
+    },
+    {
+      "stars": 4.8,
+      "votes": 2,
+      "location": "USA",
+      "description": "Group Mountain Biking",
+      "price": 50,
+      "category": "person",
+      "image": "/src/assets/mountain-bike.png"
+    }
+]
+
